@@ -1,0 +1,256 @@
+body{
+    margin:0;
+    padding:0;
+    background-color: #4A4A4A;
+}
+.title{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.title a{
+    text-decoration: none;
+    color: rgb(231, 231, 231);
+}
+h1{
+    font-size: 38px;
+    text-shadow: 1px 2px black;
+}
+label{
+    font-size: 20px;
+    text-shadow: 1px 1px black;
+}
+select{
+    margin: 10px;
+    padding: 10px;
+    width: 40%;
+    box-shadow: 1px 1px 3px black;
+}
+.infos{
+    margin-left: 30px;
+    font-size: 32px;
+    color: rgb(231, 231, 231);
+    text-shadow: 1px 1px black;
+}
+h3{
+    font-size: 26px;
+    color: rgb(231, 231, 231);
+    text-shadow: 1px 1px black;
+}
+.effectiveness{
+    display: flex;
+    flex-wrap: wrap;
+}
+.attributes{
+    width: 400px;
+    margin-left: 30px;
+}
+.attributes p {
+    margin-left: 10px;
+    font-size: 18px;
+    color: rgb(231, 231, 231);
+    text-shadow: 1px 1px black;
+}
+.att_list{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+.type-list a {
+    text-decoration: none;
+    padding: 4px 10px;
+    color: white;
+    font-size: 16px;
+    border-radius: 7px;
+    text-shadow: 1px 1px #000000;
+    cursor: pointer;
+    box-shadow: 1px 1px 1px black;
+}
+
+/*table*/
+table.darkTable {
+    background-color: #272727;
+    border-collapse: collapse;
+    box-shadow: 1px 1px 5px;
+    margin: 40px 20px;
+}
+table.darkTable tr:hover {
+    background-color: #2e2e2e;
+}
+.nom a{
+    text-decoration: none;
+    font-size: 18px;
+    text-shadow: 0px 1px black;
+    color: rgb(251, 248, 255);
+}
+/*buttons*/
+.type a {
+    text-decoration: none;
+    padding: 4px 10px;
+    color: white;
+    font-size: 12px;
+    border-radius: 7px;
+    width: 50px;
+    text-shadow: 1px 1px #000000;
+    cursor: pointer;
+}
+.psychic {
+    border: 2px solid rgb(112, 45, 90);
+    background-color: rgb(221, 87, 176);
+}
+.psychic:hover {
+    background-color: rgb(112, 45, 90);
+}
+.poison {
+    border: 2px solid rgb(73, 1, 73);
+    background-color: rgb(179,0,119);
+}
+.poison:hover {
+    background-color: rgb(73, 1, 73);
+}
+.grass{
+    border: 2px solid rgb(0, 97, 0);
+    background-color: rgb(2, 212, 48);
+}
+.grass:hover{
+    background-color: rgb(0, 97, 0);
+}
+.normal{
+    border: 2px solid rgb(17, 17, 17);
+    background-color: rgb(105, 105, 105);
+}
+.normal:hover{
+    background-color: rgb(17, 17, 17);
+}
+.flying{
+    border: 2px solid rgb(104, 100, 121);
+    background-color: rgb(171, 164, 199);
+}
+.flying:hover{
+    background-color: rgb(104, 100, 121);
+}
+.fire{
+    border: 2px solid rgb(77, 0, 0);
+    background-color: rgb(241, 35, 35);
+}
+.fire:hover{
+    background-color: rgb(77, 0, 0);
+}
+.ground{
+    border: 2px solid rgb(131, 79, 11);
+    background-color: rgb(248, 162, 48);
+}
+.ground:hover{
+    background-color: rgb(131, 79, 11);
+}
+.water{
+    border: 2px solid rgb(3, 97, 116);
+    background-color: rgb(0,213,255);
+}
+.water:hover{
+    background-color: rgb(3, 97, 116);
+}
+.rock{
+    border: 2px solid rgb(97, 51, 5);
+    background-color: rgb(204,102,0);
+}
+.rock:hover{
+    background-color: rgb(97, 51, 5);
+}
+.ghost{
+    border: 2px solid rgb(38,0,77);
+    background-color: rgb(55, 2, 107);
+}
+.ghost:hover{
+    background-color: rgb(38,0,77);
+}
+.fighting{
+    border: 2px solid rgb(90, 18, 3);
+    background-color: rgb(153,25,0);
+}
+.fighting:hover{
+    background-color: rgb(90, 18, 3);
+}
+.electric{
+    border: 2px solid rgb(126, 126, 0);
+    background-color: rgb(247, 247, 27);
+}
+.electric:hover{
+    background-color: rgb(126, 126, 0);
+}
+.dragon{
+    border: 2px solid rgb(5, 5, 78);
+    background-color: rgb(6, 6, 143);
+}
+.dragon:hover{
+    background-color: rgb(5, 5, 78);
+}
+.ice{
+    border: 2px solid rgb(22, 93, 107);
+    background-color: rgb(179,242,255);
+}
+.ice:hover{
+    background-color: rgb(22, 93, 107);
+}
+.bug{
+    border: 2px solid rgb(62, 116, 9);
+    background-color: rgb(140,255,25);
+}
+.bug:hover{
+    background-color: rgb(62, 116, 9);
+}
+table.darkTable tbody td {
+    color: #E6E6E6;
+}
+table.darkTable tr:nth-child(even) {
+    background: #757575;
+}
+table.darkTable tr:nth-child(even):hover {
+    background: #696969;
+}
+table.darkTable .nom{
+    width: 180px;
+    padding-left: 8px;
+}
+table.darkTable .type{
+    width: 140px;
+}
+table.darkTable .vide{
+    width: 200px;
+}
+table.darkTable .stats{
+    text-align: center;
+    text-shadow: 1px 1px black;
+    width: 40px;
+}
+.stat{
+    color: rgb(168, 168, 168);
+    text-shadow: 1px 1px black;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    background-color: #272727;
+    height: 50px;
+    border-top: 1px solid #1a1919;
+    box-shadow: 1px 0px 5px;
+}
+footer p{
+    display: flex;
+    align-items: center;
+    align-content: center;
+    color: white;
+    text-shadow: 1px 1px black;
+}
+
+@media not screen and (min-width: 580px) {
+    table.darkTable{
+        margin: 20px 5px 5px 5px;
+    }
+    select{
+        width: 80%;
+    }
+}

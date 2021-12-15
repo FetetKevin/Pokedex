@@ -31,5 +31,5 @@ function sort_pkmn(){
             elem.prepend(tab);
 
     })
-
+    .catch(err => console.log("ERR"))
 }

@@ -1,4 +1,4 @@
-for(let i=1; i<10;i++){
+for(let i=1; i<20;i++){
     fetch('https://pokeapi.co/api/v2/pokemon/'+i+'/')
     .then(r => r.json())
     .then(data => {
@@ -25,4 +25,5 @@ for(let i=1; i<10;i++){
         table_all();
 
     })
+    .catch(err => console.log("ERR"))
 }

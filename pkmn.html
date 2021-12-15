@@ -11,15 +11,111 @@
 
     <header class="title">
         <h1><a href="index.html">Pokedex</a></h1>
+        <label for="list">Selectionnez un PKMN</label>
+        <select name="list" id="list">
+            <option value="">1</option>
+            <option value="">2</option>
+            <option value="">3</option>
+        </select>
     </header>
 
     <div class="infos">
-        <h2>Abra</h2>
+        <h2>Salamaleykoum</h2>
     </div>
+
+    <div class="content">
+        <img class="sprite-perso" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/4.png" alt="pkmn" height="180">
+        <div class="content-btn">
+            <h3 class="type">Type: <a class="fire" href="type.html">Fire</a><a class="flying" href="type.html">Flying</a></h3>
+            <button>Show shiny</button>
+        </div>
+        <img class="sprite-shiny" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/4.png" alt="pkmn" height="180">
+        <div class="content-stat">
+            <table class="darkTable">
+                <tbody>
+                    <tr>
+                        <td class="stats"><span class="stat">HP</span><br> 25</td>
+                        <td class="stats"><span class="stat">Atk</span><br> 50</td>
+                        <td class="stats"><span class="stat">Def</span><br> 50</td>
+                        <td class="stats"><span class="stat">SpA</span><br> 50</td>
+                        <td class="stats"><span class="stat">SpD</span><br> 50</td>
+                        <td class="stats"><span class="stat">Spe</span><br> 50</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    <div class="effectiveness">
+        <div class="attributes">
+            <h3>Evolutions:</h3>
+            <p style="margin-left: 30px;">base lui: <i class="arrow right"></i><img class="sprite-perso smol-vignette" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/4.png" alt="pkmn" height="40" style="margin-left:10px;"></p>
+            <p style="margin-left: 60px;">Evolue en luienmieux: <i class="arrow right"></i><img class="sprite-perso smol-vignette" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/5.png" alt="pkmn" height="40" style="margin-left:10px;"></p>
+            <p style="margin-left: 160px;">Evolue en luienmieux: <i class="arrow right"></i><img class="sprite-perso smol-vignette" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/6.png" alt="pkmn" height="40" style="margin-left:10px;"></p>
+
+        </div>
+    </div>
+
+    <div class="effectiveness">
+        <div class="attributes">
+            <h3>Overview:</h3>
+            <p>Abra wields the strongest Psychic in NU, as well as possessing an
+                impressive Speed stat.</p>
+            <p>This makes it one of the tier's most potent
+                special attackers and revenge killers, threatening notable Pokemon like Nidoking, Venomoth, Raticate, and Pinsir.</p>
+            <p>The aforementioned Speed stat lets it compete with the tier's offensive
+                threats, notably outspeeding Nidoking and Pinsir while Speed tying Moltres, Mr. Mime, and Poliwhirl.</p>
+            <p>It's also one of the fastest users of Thunder Wave in the tier, often forcing out fast threats like Charizard and Electrode that dislike paralysis.</p>
+        </div>
+    </div>
+
+    <div class="effectiveness">
+        <div class="attributes">
+            <h3>Abilities:</h3>
+            <table class="darkTable">
+                <tbody>
+                    <tr>
+                        <td class="nom">Atk random</td>
+                        <td class="vide"></td>
+                        <td class="stats"><span class="stat">Power</span><br> 25</td>
+                        <td class="stats"><span class="stat">Accuracy</span><br> 50</td>
+                        <td class="stats"><span class="stat">PP</span><br> 50</td>
+                    </tr>
+
+                    <tr>
+                        <td class="nom">Atk random</td>
+                        <td class="vide"></td>
+                        <td class="stats"><span class="stat">Power</span><br> 25</td>
+                        <td class="stats"><span class="stat">Accuracy</span><br> 50</td>
+                        <td class="stats"><span class="stat">PP</span><br> 50</td>
+                    </tr>
+
+                    <tr>
+                        <td class="nom">Atk random</td>
+                        <td class="vide"></td>
+                        <td class="stats"><span class="stat">Power</span><br> 25</td>
+                        <td class="stats"><span class="stat">Accuracy</span><br> 50</td>
+                        <td class="stats"><span class="stat">PP</span><br> 50</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+
+
 
     <footer>
         <p>Made by Honkhonk © All right reserved</p>
     </footer>
+
+    <script>
+        const url = new URL(
+            window.location.href
+            );
+           let res = url.searchParams.get('q');
+        console.log(res);
+    </script>
     
 </body>
 </html>

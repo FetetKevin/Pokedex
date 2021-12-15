@@ -27,8 +27,20 @@ select{
     font-weight: bold;
     margin: 10px;
     padding: 10px;
-    width: 40%;
+    width: 20%;
     box-shadow: 1px 1px 3px black;
+}
+#send {
+    font-size: 12px;
+    font-weight: bold;
+    margin-top:12px;
+    padding:12px;
+    width: 40%;
+    cursor: pointer;
+    box-shadow: 2px 2px 7px black;
+}
+#send:hover {
+    box-shadow: 1px 1px 1px black;
 }
 .infos{
     margin-left: 30px;
@@ -104,6 +116,13 @@ table.darkTable tr:hover {
 }
 .psychic:hover {
     background-color: rgb(112, 45, 90);
+}
+.fairy {
+    border: 2px solid rgb(158, 80, 132);
+    background-color: rgb(238, 167, 214);
+}
+.fairy:hover {
+    background-color: rgb(156, 77, 130);
 }
 .poison {
     border: 2px solid rgb(73, 1, 73);

@@ -12,11 +12,11 @@
     <header class="title">
         <h1><a href="index.html">Pokedex</a></h1>
         <label for="list">Selectionnez un PKMN</label>
-        <select name="list" id="list">
+        <!-- <select name="list" id="list">
             <option value="">1</option>
             <option value="">2</option>
             <option value="">3</option>
-        </select>
+        </select> -->
     </header>
 
     <div class="infos">
@@ -110,12 +110,12 @@
     </footer>
 
     <script>
-        const url = new URL(
-            window.location.href
-            );
-           let res = url.searchParams.get('q');
-        console.log(res);
+        const url = new URL(window.location.href);
+            let res = url.searchParams.get('q');
+            console.log(res);
     </script>
+
+    <script src="create_btn.js"></script>
     
 </body>
 </html>

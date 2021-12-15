@@ -113,5 +113,10 @@
         <p>Made by Honkhonk © All right reserved</p>
     </footer>
 
+    <script>
+        const url = new URL(window.location.href);
+            let res = url.searchParams.get('q');
+            console.log(res);
+    </script>
 </body>
 </html>

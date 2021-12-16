@@ -36,5 +36,7 @@ fetch('https://pokeapi.co/api/v2/pokemon?limit=151')
         }
         create_btn();
         create_send();
+
+        
     })
     .catch(error => console.log('ERR'))

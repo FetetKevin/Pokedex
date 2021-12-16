@@ -5,14 +5,15 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Poke_API</title>
+    <title>Pokekdex</title>
+    <link rel="icon" type="image/x-icon" href="/img/pkdex.png">
 </head>
 <body>
 
     <header class="title">
         <h1><a href="index.html">Pokedex</a></h1>
-        <label for="list">Selectionnez un PKMN</label>
-        <!-- <select name="list" id="list">
+        <!-- <label for="list">Selectionnez un PKMN</label>
+        <select name="list" id="list">
             <option value="">1</option>
             <option value="">2</option>
             <option value="">3</option>
@@ -46,7 +47,7 @@
         </div> -->
     </div>
 
-    <div class="effectiveness">
+    <!-- <div class="effectiveness">
         <div class="attributes">
             <h3>Evolutions:</h3>
             <p style="margin-left: 30px;">base lui: <i class="arrow right"></i><img class="sprite-perso smol-vignette" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/4.png" alt="pkmn" height="40" style="margin-left:10px;"></p>
@@ -54,7 +55,7 @@
             <p style="margin-left: 160px;">Evolue en luienmieux: <i class="arrow right"></i><img class="sprite-perso smol-vignette" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/6.png" alt="pkmn" height="40" style="margin-left:10px;"></p>
 
         </div>
-    </div>
+    </div> -->
 
     <div class="effectiveness">
         <div class="attributes">
@@ -72,33 +73,20 @@
     <div class="effectiveness">
         <div class="attributes">
             <h3>Abilities:</h3>
-            <table class="darkTable">
-                <tbody>
-                    <tr>
-                        <td class="nom">Atk random</td>
-                        <td class="vide"></td>
-                        <td class="stats"><span class="stat">Power</span><br> 25</td>
-                        <td class="stats"><span class="stat">Accuracy</span><br> 50</td>
-                        <td class="stats"><span class="stat">PP</span><br> 50</td>
-                    </tr>
-
-                    <tr>
-                        <td class="nom">Atk random</td>
-                        <td class="vide"></td>
-                        <td class="stats"><span class="stat">Power</span><br> 25</td>
-                        <td class="stats"><span class="stat">Accuracy</span><br> 50</td>
-                        <td class="stats"><span class="stat">PP</span><br> 50</td>
-                    </tr>
-
-                    <tr>
-                        <td class="nom">Atk random</td>
-                        <td class="vide"></td>
-                        <td class="stats"><span class="stat">Power</span><br> 25</td>
-                        <td class="stats"><span class="stat">Accuracy</span><br> 50</td>
-                        <td class="stats"><span class="stat">PP</span><br> 50</td>
-                    </tr>
-                </tbody>
-            </table>
+            <div class="tab">
+                <table class="darkTable atk">
+                    <tbody>
+                        <!-- <tr>
+                            <td class="nom">Atk random</td>
+                            <td class="vide"></td>
+                            <td class="stats"><span class="stat">Power</span><br> 25</td>
+                            <td class="stats"><span class="stat">Accuracy</span><br> 50</td>
+                            <td class="stats"><span class="stat">PP</span><br> 50</td>
+                            <td class="desc">Lowers the target's Special Attack by one stage.Lowers the target's Special Attack by one stage.Lowers the target's Special Attack by one stage.Lowers the target's Special Attack by one stage.Lowers the target's Special Attack by one stage.</td>
+                        </tr> -->
+                    </tbody>
+                </table>
+            </div>
         </div>
     </div>
 
@@ -111,6 +99,7 @@
 
     <!-- <script src="create_btn.js"></script> -->
     <script src="show_pkmn.js"></script>
+    <script src="show_atk.js"></script>
     
 </body>
 </html>

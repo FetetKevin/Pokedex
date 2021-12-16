@@ -58,7 +58,7 @@ h3{
     flex-wrap: wrap;
 }
 .attributes{
-    width: 400px;
+    width: 700px;
     margin-left: 30px;
 }
 .attributes p {
@@ -246,9 +246,35 @@ table.darkTable .stats{
     text-shadow: 1px 1px black;
     width: 40px;
 }
+table.darkTable .desc{
+    text-align: center;
+    text-shadow: 1px 1px black;
+    width: 600px;
+}
 .stat{
     color: rgb(168, 168, 168);
     text-shadow: 1px 1px black;
+}
+.btn-next{
+    cursor: pointer;
+    margin-left: 25%;
+    font-size: 20px;
+    background-color: #696969;
+    width: 93px;
+    padding: 10px;
+    margin-bottom: 30px;
+    border: 3px solid #1a1919;
+    box-shadow: 1px 1px 5px black;
+    text-shadow: 1px 1px black;
+    border-radius: 4px;
+}
+.btn-next:hover{
+    background-color: #555555;
+    box-shadow: 1px 1px 1px black;
+}
+.btn-next a{
+    text-decoration: none;
+    color: white;
 }
 
 footer{

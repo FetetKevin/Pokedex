@@ -1,0 +1,39 @@
+{"effective": {
+    "fire": ["grass","ice","bug"],
+    "water": ["fire","ground","rock"],
+    "electric": ["water","flying"],
+    "grass": ["water","ground","rock"],
+    "ice": ["grass","ground","flying","dragon"],
+    "fighting": ["normal","ice","rock"],
+    "poison": ["grass","bug"],
+    "ground": ["fire","electric","poison","rock"],
+    "flying": ["grass","fighting","bug"],
+    "psychic": ["fighting","poison"],
+    "bug": ["grass","poison","psychic"],
+    "rock": ["fire","ice","flying","bug"],
+    "ghost": ["ghost"],
+    "dragon": ["dragon"]
+    },
+    "not_effective": {
+        "normal": ["rock"],
+        "fire": ["fire","water","rock","dragon"],
+        "water": ["water","grass","dragon"],
+        "electric": ["electric","grass","dragon"],
+        "grass": ["fire","grass","poison","flying","bug","dragon"],
+        "ice": ["water","ice"],
+        "fighting": ["poison","flying","psychic","bug"],
+        "poison": ["poison","ground","rock","ghost"],
+        "ground": ["grass","bug"],
+        "flying": ["electric","rock"],
+        "psychic": ["psychic"],
+        "bug": ["fire","fighting","flying"],
+        "rock": ["fighting","ground"]
+    },
+    "immune": {
+        "normal": ["ghost"],
+        "ground": ["electric"],
+        "flying": ["ground"],
+        "psychic": ["ghost"],
+        "ghost": ["normal","fighting"]
+    }
+}   
